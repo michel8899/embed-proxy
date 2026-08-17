@@ -1,0 +1,276 @@
+{
+  "version": 1,
+  "proxyBase": "https://michel8899.github.io/embed-proxy/",
+  "providers": [
+    {
+      "name": "Max",
+      "flag": "https://flagsapi.com/US/flat/24.png",
+      "movie": { "idType": "tmdb", "url": "https://ythd.org/embed/{id}" },
+      "tv": { "idType": "tmdb", "url": "https://ythd.org/embed/{id}/{season}-{episode}" }
+    },
+    {
+      "name": "Vidpro",
+      "flag": "https://flagsapi.com/GB/flat/24.png",
+      "movie": { "idType": "tmdb", "url": "https://vixsrc.to/movie/{id}" },
+      "tv": { "idType": "tmdb", "url": "https://vixsrc.to/tv/{id}/{season}/{episode}" }
+    },
+    {
+      "name": "4K",
+      "flag": "https://flagsapi.com/GB/flat/24.png",
+      "movie": { "idType": "tmdb", "url": "https://player.videasy.to/movie/{id}" },
+      "tv": { "idType": "tmdb", "url": "https://player.videasy.to/tv/{id}/{season}/{episode}" }
+    },
+    {
+      "name": "Vidfast",
+      "flag": "https://flagsapi.com/GB/flat/24.png",
+      "movie": { "idType": "tmdb", "url": "https://vidfast.vc/movie/{id}?autoplay=true" },
+      "tv": { "idType": "tmdb", "url": "https://vidfast.vc/tv/{id}/{season}/{episode}?autoplay=true" }
+    },
+    {
+      "name": "Nxsha",
+      "flag": "https://flagsapi.com/US/flat/24.png",
+      "movie": { "idType": "tmdb", "url": "https://nxsha.space/embed/movie/{id}?lang=en&autoplay=true&sub=en" },
+      "tv": { "idType": "tmdb", "url": "https://nxsha.space/embed/tv/{id}/{season}/{episode}?lang=en&autoplay=true&sub=en" }
+    },
+    {
+      "name": "Super",
+      "flag": "https://flagsapi.com/GB/flat/24.png",
+      "movie": { "idType": "tmdb", "url": "https://vidsuper.net/movie/{id}" },
+      "tv": { "idType": "tmdb", "url": "https://vidsuper.net/tv/{id}/{season}/{episode}" }
+    },
+    {
+      "name": "Vidcore",
+      "flag": "https://flagsapi.com/GB/flat/24.png",
+      "movie": { "idType": "tmdb", "url": "https://vidcore.net/movie/{id}?autoPlay=true&sub=en" },
+      "tv": { "idType": "tmdb", "url": "https://vidcore.net/tv/{id}/{season}/{episode}?autoPlay=true&sub=en" }
+    },
+    {
+      "name": "Rock",
+      "flag": "https://flagsapi.com/GB/flat/24.png",
+      "movie": { "idType": "tmdb", "url": "https://vidrock.net/embed/movie/{id}?autoplay=true" },
+      "tv": { "idType": "tmdb", "url": "https://vidrock.net/embed/tv/{id}/{season}/{episode}?autoplay=true&nextbutton=false&episodeselector=false" }
+    },
+    {
+      "name": "Primesrc",
+      "flag": "https://flagsapi.com/AU/flat/24.png",
+      "movie": { "idType": "imdb", "url": "https://primesrc.me/embed/movie?imdb={id}" },
+      "tv": { "idType": "tmdb", "url": "https://primesrc.me/embed/tv?tmdb={id}&season={season}&episode={episode}" }
+    },
+    {
+      "name": "2Embed",
+      "flag": "https://flagsapi.com/AU/flat/24.png",
+      "movie": { "idType": "tmdb", "url": "https://2embed.stream/embed/movie/{id}" },
+      "tv": { "idType": "tmdb", "url": "https://www.2embed.stream/embed/tv/{id}/{season}/{episode}" }
+    },
+    {
+      "name": "Cinemaos",
+      "flag": "https://flagsapi.com/US/flat/24.png",
+      "movie": { "idType": "tmdb", "url": "https://cinemaos.tech/player/{id}" },
+      "tv": { "idType": "tmdb", "url": "https://cinemaos.tech/player/{id}/{season}/{episode}" }
+    },
+    {
+      "name": "Prime",
+      "flag": "https://flagsapi.com/US/flat/24.png",
+      "movie": { "idType": "tmdb", "url": "https://nxsha.space/embed/movie/{id}?lang=en&autoplay=true&one_server=true&server=OrVid-[Multi-Lang]" },
+      "tv": { "idType": "tmdb", "url": "https://nxsha.space/embed/tv/{id}/{season}/{episode}?lang=en&autoplay=true&one_server=true&server=OrVid-[Multi-Lang]" }
+    },
+    {
+      "name": "Netflix",
+      "flag": "https://flagsapi.com/US/flat/24.png",
+      "movie": { "idType": "tmdb", "url": "https://nxsha.space/embed/movie/{id}?lang=en&autoplay=true&one_server=true&server=ZetPly-[Multi-Lang]" },
+      "tv": { "idType": "tmdb", "url": "https://nxsha.space/embed/tv/{id}/{season}/{episode}?lang=en&autoplay=true&one_server=true&server=ZetPly-[Multi-Lang]" }
+    },
+    {
+      "name": "Hotstar",
+      "flag": "https://flagsapi.com/US/flat/24.png",
+      "movie": { "idType": "tmdb", "url": "https://nxsha.space/embed/movie/{id}?lang=en&autoplay=true&one_server=true&server=QsPly-[Multi-Lang]" },
+      "tv": { "idType": "tmdb", "url": "https://nxsha.space/embed/tv/{id}/{season}/{episode}?lang=en&autoplay=true&one_server=true&server=QsPly-[Multi-Lang]" }
+    },
+    {
+      "name": "Vidnest",
+      "flag": "https://flagsapi.com/GB/flat/24.png",
+      "movie": { "idType": "tmdb", "url": "https://vidnest.fun/movie/{id}" },
+      "tv": { "idType": "tmdb", "url": "https://vidnest.fun/tv/{id}/{season}/{episode}" }
+    },
+    {
+      "name": "Tongo",
+      "flag": "https://flagsapi.com/US/flat/24.png",
+      "movie": { "idType": "tmdb", "url": "https://www.NontonGo.win/embed/movie/{id}" },
+      "tv": { "idType": "tmdb", "url": "https://www.NontonGo.win/embed/tv/{id}/{season}/{episode}" }
+    },
+    {
+      "name": "Echo",
+      "flag": "https://flagsapi.com/US/flat/24.png",
+      "movie": { "idType": "tmdb", "url": "https://vidlink.pro/movie/{id}?primaryColor=white&secondaryColor=white&iconColor=white&title=false&poster=true&autoplay=true" },
+      "tv": { "idType": "tmdb", "url": "https://vidlink.pro/tv/{id}/{season}/{episode}?primaryColor=white&secondaryColor=white&iconColor=white&title=false&poster=true&autoplay=true" }
+    },
+    {
+      "name": "NHD",
+      "flag": "https://flagsapi.com/IN/flat/24.png",
+      "movie": { "idType": "tmdb", "url": "https://nhdapi.com/embed/movie/{id}?autoplay=true&autonext=true&audio=true&title=true&download=true" },
+      "tv": { "idType": "tmdb", "url": "https://nhdapi.com/embed/tv/{id}/{season}/{episode}?autoplay=true&autonext=true&audio=true&title=true&download=true" }
+    },
+    {
+      "name": "Mplay",
+      "flag": "https://flagsapi.com/IN/flat/24.png",
+      "movie": { "idType": "tmdb", "url": "https://rozgarlelo.modiplay.xyz/embed/tmdb/movie?id={id}" },
+      "tv": { "idType": "tmdb", "url": "https://rozgarlelo.modiplay.xyz/embed/tmdb/tv?id={id}&s={season}&e={episode}" }
+    },
+    {
+      "name": "Xpass",
+      "flag": "https://flagsapi.com/US/flat/24.png",
+      "movie": { "idType": "imdb", "url": "https://play.xpass.top/e/movie/{id}" },
+      "tv": { "idType": "tmdb", "url": "https://play.xpass.top/e/tv/{id}/{season}/{episode}" }
+    },
+    {
+      "name": "Bravo",
+      "flag": "https://flagsapi.com/GB/flat/24.png",
+      "movie": { "idType": "tmdb", "url": "https://moviesapi.to/movie/{id}" },
+      "tv": { "idType": "tmdb", "url": "https://moviesapi.to/tv/{id}/{season}/{episode}" }
+    },
+    {
+      "name": "Vidking",
+      "flag": "https://flagsapi.com/US/flat/24.png",
+      "movie": { "idType": "tmdb", "url": "https://www.vidking.net/embed/movie/{id}?autoplay=true" },
+      "tv": { "idType": "tmdb", "url": "https://www.vidking.net/embed/tv/{id}/{season}/{episode}?autoplay=true&episodeSelector=true" }
+    },
+    {
+      "name": "111",
+      "flag": "https://flagsapi.com/GB/flat/24.png",
+      "movie": { "idType": "tmdb", "url": "https://111movies.net/movie/{id}" },
+      "tv": { "idType": "tmdb", "url": "https://111movies.net/tv/{id}/{season}/{episode}" }
+    },
+    {
+      "name": "Jade",
+      "flag": "https://flagsapi.com/PT/flat/24.png",
+      "movie": { "idType": "tmdb", "url": "https://superflixapi.lifestyle/filme/{id}" },
+      "tv": { "idType": "tmdb", "url": "https://superflixapi.lifestyle/serie/{id}/{season}/{episode}" }
+    },
+    {
+      "name": "French",
+      "flag": "https://flagsapi.com/FR/flat/24.png",
+      "movie": { "idType": "tmdb", "url": "https://frembed.hair/api/film.php?id={id}" },
+      "tv": { "idType": "tmdb", "url": "https://frembed.hair/api/serie.php?id={id}&sa={season}&epi={episode}" }
+    },
+    {
+      "name": "Spanish",
+      "flag": "https://flagsapi.com/ES/flat/24.png",
+      "movie": { "idType": "tmdb", "url": "https://nxsha.space/embed/movie/{id}?lang=es&autoplay=true&sub=es" },
+      "tv": { "idType": "tmdb", "url": "https://nxsha.space/embed/tv/{id}/{season}/{episode}?lang=es&autoplay=true&sub=es" }
+    },
+    {
+      "name": "Hindi",
+      "flag": "https://flagsapi.com/IN/flat/24.png",
+      "movie": { "idType": "tmdb", "url": "https://nxsha.space/embed/movie/{id}?lang=hindi&autoplay=true" },
+      "tv": { "idType": "tmdb", "url": "https://nxsha.space/embed/tv/{id}/{season}/{episode}?lang=hindi&autoplay=true" }
+    },
+    {
+      "name": "Tamil",
+      "flag": "https://flagsapi.com/IN/flat/24.png",
+      "movie": { "idType": "tmdb", "url": "https://nxsha.space/embed/movie/{id}?lang=tamil&autoplay=true" },
+      "tv": { "idType": "tmdb", "url": "https://nxsha.space/embed/tv/{id}/{season}/{episode}?lang=tamil&autoplay=true" }
+    },
+    {
+      "name": "Telugu",
+      "flag": "https://flagsapi.com/IN/flat/24.png",
+      "movie": { "idType": "tmdb", "url": "https://nxsha.space/embed/movie/{id}?lang=telugu&autoplay=true" },
+      "tv": { "idType": "tmdb", "url": "https://nxsha.space/embed/tv/{id}/{season}/{episode}?lang=telugu&autoplay=true" }
+    },
+    {
+      "name": "Arab",
+      "flag": "https://flagsapi.com/SA/flat/24.png",
+      "movie": { "idType": "tmdb", "url": "https://nxsha.space/embed/movie/{id}?lang=ar&autoplay=true&sub=ar" },
+      "tv": { "idType": "tmdb", "url": "https://nxsha.space/embed/tv/{id}/{season}/{episode}?lang=ar&autoplay=true&sub=ar" }
+    },
+    {
+      "name": "French 2",
+      "flag": "https://flagsapi.com/FR/flat/24.png",
+      "movie": { "idType": "tmdb", "url": "https://nxsha.space/embed/movie/{id}?lang=fr&autoplay=true&sub=fr" },
+      "tv": { "idType": "tmdb", "url": "https://nxsha.space/embed/tv/{id}/{season}/{episode}?lang=fr&autoplay=true&sub=fr" }
+    },
+    {
+      "name": "Brazil",
+      "flag": "https://flagsapi.com/BR/flat/24.png",
+      "movie": { "idType": "tmdb", "url": "https://nxsha.space/embed/movie/{id}?lang=pt&autoplay=true&sub=pt" },
+      "tv": { "idType": "tmdb", "url": "https://nxsha.space/embed/tv/{id}/{season}/{episode}?lang=pt&autoplay=true&sub=pt" }
+    },
+    {
+      "name": "Rus",
+      "flag": "https://flagsapi.com/RU/flat/24.png",
+      "movie": { "idType": "tmdb", "url": "https://nxsha.space/embed/movie/{id}?lang=ru&autoplay=true&sub=ru" },
+      "tv": { "idType": "tmdb", "url": "https://nxsha.space/embed/tv/{id}/{season}/{episode}?lang=ru&autoplay=true&sub=ru" }
+    },
+    {
+      "name": "German",
+      "flag": "https://flagsapi.com/DE/flat/24.png",
+      "movie": { "idType": "tmdb", "url": "https://nxsha.space/embed/movie/{id}?lang=de&autoplay=true&sub=de" },
+      "tv": { "idType": "tmdb", "url": "https://nxsha.space/embed/tv/{id}/{season}/{episode}?lang=de&autoplay=true&sub=de" }
+    },
+    {
+      "name": "Italy",
+      "flag": "https://flagsapi.com/IT/flat/24.png",
+      "movie": { "idType": "tmdb", "url": "https://vixsrc.to/movie/{id}?lang=it" },
+      "tv": { "idType": "tmdb", "url": "https://vixsrc.to/tv/{id}/{season}/{episode}?lang=it" }
+    },
+    {
+      "name": "Italy 2",
+      "flag": "https://flagsapi.com/IT/flat/24.png",
+      "movie": { "idType": "tmdb", "url": "https://nxsha.space/embed/movie/{id}?lang=it&autoplay=true&sub=it" },
+      "tv": { "idType": "tmdb", "url": "https://nxsha.space/embed/tv/{id}/{season}/{episode}?lang=it&autoplay=true&sub=it" }
+    },
+    {
+      "name": "Japan",
+      "flag": "https://flagsapi.com/JP/flat/24.png",
+      "movie": { "idType": "tmdb", "url": "https://nxsha.space/embed/movie/{id}?lang=ja&autoplay=true&sub=ja" },
+      "tv": { "idType": "tmdb", "url": "https://nxsha.space/embed/tv/{id}/{season}/{episode}?lang=ja&autoplay=true&sub=ja" }
+    },
+    {
+      "name": "Polish",
+      "flag": "https://flagsapi.com/PL/flat/24.png",
+      "movie": { "idType": "tmdb", "url": "https://nxsha.space/embed/movie/{id}?lang=pl&autoplay=true&sub=pl" },
+      "tv": { "idType": "tmdb", "url": "https://nxsha.space/embed/tv/{id}/{season}/{episode}?lang=pl&autoplay=true&sub=pl" }
+    },
+    {
+      "name": "PT",
+      "flag": "https://flagsapi.com/PT/flat/24.png",
+      "movie": { "idType": "tmdb", "url": "https://nxsha.space/embed/movie/{id}?lang=pt&autoplay=true&sub=pt" },
+      "tv": { "idType": "tmdb", "url": "https://nxsha.space/embed/tv/{id}/{season}/{episode}?lang=pt&autoplay=true&sub=pt" }
+    },
+    {
+      "name": "Thai",
+      "flag": "https://flagsapi.com/TH/flat/24.png",
+      "movie": { "idType": "tmdb", "url": "https://nxsha.space/embed/movie/{id}?lang=th&autoplay=true&sub=th" },
+      "tv": { "idType": "tmdb", "url": "https://nxsha.space/embed/tv/{id}/{season}/{episode}?lang=th&autoplay=true&sub=th" }
+    },
+    {
+      "name": "Turkish",
+      "flag": "https://flagsapi.com/TR/flat/24.png",
+      "movie": { "idType": "tmdb", "url": "https://nxsha.space/embed/movie/{id}?lang=tr&autoplay=true&sub=tr" },
+      "tv": { "idType": "tmdb", "url": "https://nxsha.space/embed/tv/{id}/{season}/{episode}?lang=tr&autoplay=true&sub=tr" }
+    },
+    {
+      "name": "Rive",
+      "flag": "https://flagsapi.com/GB/flat/24.png",
+      "movie": { "idType": "tmdb", "url": "https://www.rivestream.app/embed?type=movie&id={id}" },
+      "tv": { "idType": "tmdb", "url": "https://www.rivestream.app/embed?type=tv&id={id}&season={season}&episode={episode}" }
+    },
+    {
+      "name": "Flicky",
+      "flag": "https://flagsapi.com/IN/flat/24.png",
+      "movie": { "idType": "tmdb", "url": "https://flicky.host/embed/movie/?id={id}" },
+      "tv": { "idType": "tmdb", "url": "https://flicky.host/embed/tv/?id={id}/{season}/{episode}" }
+    },
+    {
+      "name": "Peachify",
+      "flag": "https://flagsapi.com/US/flat/24.png",
+      "movie": { "idType": "tmdb", "url": "https://peachify.top/embed/movie/{id}?autoplay=true&sub=English" },
+      "tv": { "idType": "tmdb", "url": "https://peachify.top/embed/tv/{id}/{season}/{episode}?autoplay=true&sub=English" }
+    },
+    {
+      "name": "Download",
+      "flag": "https://flagsapi.com/IN/flat/24.png",
+      "movie": { "idType": "tmdb", "url": "https://moviesdl.cc/p/info.html?id={id}&type=movie" },
+      "tv": { "idType": "tmdb", "url": "https://moviesdl.cc/p/info.html?id={id}&type=tv", "noSeasonEpisode": true }
+    }
+  ]
+}
